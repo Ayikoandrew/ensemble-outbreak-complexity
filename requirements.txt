@@ -1,38 +1,38 @@
 # Core ML Libraries
-scikit-learn>=1.3.0
-lightgbm>=4.0.0
-numpy>=1.24.0
-pandas>=2.0.0
+scikit-learn
+lightgbm
+numpy
+pandas
 
 # Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
-plotly>=5.14.0
+matplotlib
+seaborn
+plotly
 
 # Notebook & Interactive
-jupyter>=1.0.0
-ipykernel>=6.25.0
-ipywidgets>=8.0.0
+jupyter
+ipykernel
+ipywidgets
 
 # Profiling & Performance
-memory-profiler>=0.61.0
-line-profiler>=4.0.0
-psutil>=5.9.0
-py-cpuinfo>=9.0.0
+memory-profiler
+line-profiler
+psutil
+py-cpuinfo
 
 # Data Processing
-scipy>=1.11.0
-statsmodels>=0.14.0
+scipy
+statsmodels
 
 # Utilities
-tqdm>=4.65.0
-pyyaml>=6.0
-python-dotenv>=1.0.0
+tqdm
+pyyaml
+python-dotenv
 
 # Testing 
-pytest>=7.4.0
-pytest-cov>=4.1.0
+pytest
+pytest-cov
 
 # Documentation 
-sphinx>=7.0.0
-sphinx-rtd-theme>=1.3.0
+sphinx
+sphinx-rtd-theme
