@@ -156,7 +156,7 @@ With \texttt{n\_jobs=1}, $p=1$ for the Random Forest measurements. In the depth-
 
 \section{Results}
 \subsection{Baseline Model Comparison}
-Table~\ref{tab:complexity-summary} summarizes the main publication-ready comparison. All models meet the sub-second inference requirement by a wide margin. The held-out test batch contains 26 observations, including 6 positive high-burden cases and 20 negative cases, so accuracy alone is not a sufficient evaluation metric: a trivial all-negative classifier would already reach 0.769 accuracy. For that reason, the table reports positive-class precision, recall, F1, and AUC in addition to accuracy. These metrics confirm that the task is highly separable in this split; they do not establish that ensembles are epidemiologically superior to the simpler baselines.
+Table~\ref{tab:complexity-summary} summarizes the primary model profiling comparison. All models meet the sub-second inference requirement by a wide margin. The held-out test batch contains 26 observations, including 6 positive high-burden cases and 20 negative cases, so accuracy alone is not a sufficient evaluation metric: a trivial all-negative classifier would already reach 0.769 accuracy. For that reason, the table reports positive-class precision, recall, F1, and AUC in addition to accuracy. These metrics confirm that the task is highly separable in this split; they do not establish that ensembles are epidemiologically superior to the simpler baselines.
 
 \begin{table}[ht]
 \centering
