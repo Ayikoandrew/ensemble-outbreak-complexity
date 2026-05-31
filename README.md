@@ -30,6 +30,10 @@ This repository contains the code, data, and analysis for a research project inv
 **Primary:** Uganda National Health Observatory - Malaria Surveillance Data  
 **URL:** https://nho.health.go.ug/themes/Malaria
 
+**Raw data files:**
+- `Export_Malaria_Admissions_(Reported).csv` - Source: Uganda Health Data Observatory, Ministry of Health Uganda. https://nho.health.go.ug
+- `health_data_3_13_2026.csv` - Source: Uganda Health Data Observatory, Ministry of Health Uganda. https://nho.health.go.ug
+
 **Features:**
 - Time-series malaria case data
 - District/regional geographic granularity
