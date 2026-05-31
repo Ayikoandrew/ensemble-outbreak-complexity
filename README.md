@@ -171,14 +171,12 @@ See `pyproject.toml` for complete list with versions.
 - [x] Research scope defined
 - [x] Literature review in progress
 - [x] Data source identified
-- [ ] Data downloaded and preprocessed
-- [ ] Complexity derivations complete
-- [ ] Baseline models implemented
-- [ ] Experiments running
-- [ ] Results analysis
-- [ ] Paper draft
-
-See `docs/weekly_progress/` for detailed updates.
+- [x] Data downloaded and preprocessed
+- [x] Complexity derivations complete
+- [x] Baseline models implemented
+- [x] Experiments running
+- [x] Results analysis
+- [x] Paper draft
 
 ---
 
