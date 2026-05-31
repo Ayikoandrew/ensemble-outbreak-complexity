@@ -90,3 +90,6 @@ config.ini
 # OS
 Thumbs.db
 .DS_Store
+generate_malaria_data.py
+quick_start_experiment.py
+QUICK_START.md

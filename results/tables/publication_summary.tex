@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{table}[ht]
+\centering
+\caption{Complexity Analysis Summary: Ensemble Methods for Malaria Outbreak Prediction}
+\label{tab:complexity_summary}
+\begin{tabular}{lllllll}
+\toprule
+Model & Training Complexity & Inference Complexity & Train Time (ms) & Infer Time (ms) & Memory (MB) & Accuracy \\
+\midrule
+Logistic Regression & O(n·d·i) & O(d) & 302.1 & 1.08 & 0.046 & 1.000 \\
+Decision Tree & O(n·d·log(n)) & O(h) & 53.2 & 1.00 & 0.027 & 0.962 \\
+Random Forest (k=100) & O(k·n·d·log(n)) & O(k·h) & 3865.3 & 26.35 & 0.113 & 1.000 \\
+LightGBM (k=100) & O(n·d·k) & O(k·h) & 898.0 & 9.10 & 1.096 & 0.962 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
